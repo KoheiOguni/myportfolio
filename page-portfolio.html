@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!--ヘッダー-->
+<header>
+<!--メニューバー-->
+<div class="button_container" id="toggle">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</div>
+
+<div class="overlay" id="overlay">
+  <nav class="overlay-menu">
+    <ul>
+      <li ><a href="index.html">Home</a></li>
+      <li><a href="page-about.html">About Me</a></li>
+      <li><a href="page-portfolio.html">Portfolio</a></li>
+      <li><a href="page-contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+</header>
+
+
+<section class="maincontents">
+<!--ポートフォリオの選択肢-->
+<nav class="slidemenu">
+  
+  <!-- Item 1 -->
+  <input type="radio" name="slideItem" id="slide-all" class="slide-toggle" checked/>
+  <label for="slide-all"><p class="icon glyphicon glyphicon-asterisk"></p><span>All</span></label>
+  
+  <!-- Item 2 -->
+  <input type="radio" name="slideItem" id="slide-web" class="slide-toggle">
+  <label for="slide-web"><p class="icon glyphicon glyphicon-list-alt"></p><span>HP</span></label>
+  
+  <!-- Item 3 -->
+  <input type="radio" name="slideItem" id="slide-video" class="slide-toggle"/>
+  <label for="slide-video"><p class="icon glyphicon glyphicon-facetime-video"></p><span>Movie</span></label>
+  
+  <!-- Item 4 -->
+  <input type="radio" name="slideItem" id="slide-AI" class="slide-toggle"/>
+  <label for="slide-AI"><p class="icon glyphicon glyphicon-cog"></p><span>AI Tool</span></label>
+ 
+  <div class="clear"></div>
+  
+  <!-- Bar -->
+  <div class="slider">
+    <div class="bar"></div>
+  </div>
+  
+</nav>
+
+<!--Webサイト　ポートフォリオ-->
+<section class="web_portfolio">
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio1.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>Web page1</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio2.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>Web page2</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio3.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>Web page3</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio4.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>Web page4</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio5.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>Web page5</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio6.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>Web page6</p>
+  	</div>
+  </div>
+  </a>
+  
+</section>
+
+<!--動画　ポートフォリオ-->
+<section class="video_portfolio">
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio1.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>Video1</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio2.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>Video2</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio3.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>Video3</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio4.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>Video4</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio5.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>Video5</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio6.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>Video6</p>
+  	</div>
+  </div>
+  </a>
+
+</section>
+  
+  <!--機械学習エンジニア　ポートフォリオ-->
+<section class="AI_portfolio">
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio1.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>AI tool1</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio2.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>AI tool2</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio3.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>AI tool3</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio4.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>AI tool4</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio5.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>AI tool5</p>
+  	</div>
+  </div>
+  </a>
+  
+  <a href="#" class="portfolio_link">
+  <div class="portfolio">
+  	<img src="./image/portfolio6.jpg" alt="portfolio" />
+  	<div class="mask1"></div>
+  	<div class="mask2"></div>
+  	<div class="caption">
+  		<p>AI tool6</p>
+  	</div>
+  </div>
+  </a>
+ 
+  
+</section>
+
+    
+<footer>
+    <!--SNSアイコン-->
+    <div>
+    <ul class="follow-me">
+      <li><a href="https://twitter.com" class="twitter"></a></li>
+      <li><a href="https://www.facebook.com" class="facebook"></a></li>
+      <li><a href="https://www.instagram.com" class="instagram"></a></li>
+      <li><a href="https://www.youtube.com" class="youtube"></a></li>
+    </ul>
+    </div>
+    <!--コピーライト-->
+    <div id="copyright">
+      Copyright &copy; 2019 Yuji MIZUTANI All Rights Reserved.
+    </div>
+</footer>
+ 
+  
+      <script src="vendor/jquery-2.2.4.min.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <script src="bootstrap/js/bootstrap.js"></script>
+      <script src="vendor/jquery.waypoints.min.js"></script>
+      <script src="vendor/jquery.magnific-popup.min.js"></script>
+      <script src="vendor/mobile-detect.min.js"></script>
+      <script src="main.js"></script>
+    
+
+</body>
+
+</html>
