@@ -70,7 +70,7 @@ html, body{
 .button_container span {
   background: black;
   border: none;
-  height: 5px;
+  height: 8px;
   width: 100%;
   position: absolute;
   top: 0;
@@ -337,7 +337,7 @@ html, body{
 .service_content {
   background-color: rgba(0,0,0,0.55);
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0 auto 40px auto;
   padding: 30px 10px 30px 10px;
   border-radius: 15px;
@@ -496,6 +496,8 @@ footer {
 /*レスポンシブ対応*/
 
 @media screen and (min-width:500px) {
+  
+
   .skill_section {
     background-image: url("image/skill-bcg.jpeg");
     background-size: cover;
@@ -504,6 +506,7 @@ footer {
     background-image: url("image/service\ bcg.jpeg");
     background-size: cover;
   }
+  
   .portfolio {
   width: 80%;
   height: auto;
@@ -513,12 +516,18 @@ footer {
   	font-size:		150%;
   }
   .portfolio img{
-    height: 320px;
+    height: 390px;
   }
   .portfolio_section {
-    background-image: url("image/work-bcg.jpeg");
+    background-image: url("image/work_background.jpg");
+    background-color:rgba(255,255,255,0.8);  
+    background-blend-mode:lighten;
     background-size: cover;
   }
+
+  .introduction_text p{
+    font-size: 50px;
+  } 
   .skill {
   width: 20%;
   height: auto;
@@ -536,6 +545,7 @@ footer {
   }
 }
 @media screen and (min-width:768px) {
+
   .profile_section {
     background-image: url("image/background-img.jpeg");
     background-size: cover;
@@ -545,6 +555,19 @@ footer {
     background-size: cover;
   }
 
+  .introduction_text p{
+    font-size: 30px;
+  } 
+
+  .text-primary{
+    font-size: 40px;
+  }
+
+  .profile_image img{
+    width: 130%;
+    height: auto;
+    border-radius:50%;
+  }
   .portfolio {
   width: 45%;
   height: auto;
@@ -557,9 +580,12 @@ footer {
     height: 320px;
   }
   .portfolio_section {
-    background-image: url("image/work-bcg.jpeg");
+    background-image: url("image/work_background.jpg");
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
     background-size: cover;
   }
+  
   .skill {
   width: 19%;
   height: auto;
@@ -570,6 +596,7 @@ footer {
     margin-right: auto;
     width: 60%;
   }
+
   .service_image img{
     width: 50%;
   }
@@ -577,6 +604,38 @@ footer {
     background-image: url("image/service\ bcg.jpeg");
     background-size: cover;
   }
+
+  .portfolio_link{
+    display: inline-block;
+    padding-top: 20px;
+  }
+  .portfolio img{
+   width: 100%;
+   height: auto;
+  }
+
+  .button_container span {
+    background: black;
+    border: none;
+    height: 5px;
+    width: 150%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.35s ease;
+    cursor: pointer;
+  }
+
+  .button_container span:nth-of-type(2) {
+    top: 20px;
+  }
+  .button_container span:nth-of-type(3) {
+    top: 40px;
+
+    active:.button_container span:nth-of-type(3) {
+      display:none;
+  }
+  
 }
 @media screen and (min-width:1024px) {
   .profile_section {
@@ -587,11 +646,15 @@ footer {
     background-image: url("image/skill-bcg.jpeg");
     background-size: cover;
   }
+  
   .portfolio {
   width: 30%;
   height: auto;
   margin: 0 8px 10px 8px;
   }
+  .introduction_text p{
+    font-size: 20px;
+  } 
   .portfolio .caption {
     font-size:		130%;
   }
@@ -599,9 +662,12 @@ footer {
     height: 320px;
   }
   .portfolio_section {
-    background-image: url("image/work-bcg.jpeg");
+    background-image: url("image/work_background.jpg");
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
     background-size: cover;
   }
+
   .skill {
   width: 18%;
   height: auto;
