@@ -445,13 +445,11 @@ footer {
 }
 
 .contact_text {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 15px;
 }
 
-.contact_title, .contact_title p{
-  color: black;
-}
+
 
 /*SNSアイコン*/
 .follow-me {
@@ -497,7 +495,6 @@ footer {
 
 @media screen and (min-width:500px) {
   
-
   .skill_section {
     background-image: url("image/skill-bcg.jpeg");
     background-size: cover;
@@ -546,6 +543,7 @@ footer {
 }
 @media screen and (min-width:768px) {
 
+
   .profile_section {
     background-image: url("image/background-img.jpeg");
     background-size: cover;
@@ -560,8 +558,14 @@ footer {
   } 
 
   .text-primary{
-    font-size: 40px;
+    font-size: 44px;
   }
+
+  .sub_title{
+    font-size: 37px;
+  }
+
+  
 
   .profile_image img{
     width: 130%;
@@ -589,6 +593,10 @@ footer {
   .skill {
   width: 19%;
   height: auto;
+  }
+
+  .service_content{
+    font-size: 30px;
   }
   .service_item {
     display:block;
@@ -635,9 +643,13 @@ footer {
     active:.button_container span:nth-of-type(3) {
       display:none;
   }
+
+  
   
 }
 @media screen and (min-width:1024px) {
+  
+
   .profile_section {
     background-image: url("image/background-img.jpeg");
     background-size: cover;
@@ -678,6 +690,9 @@ footer {
   .service_item {
     display: inline-block;
     width: 30%;
+  }
+  .service_content{
+    font-size: 18px;
   }
   .service_section {
     background-image: url("image/service\ bcg.jpeg");
